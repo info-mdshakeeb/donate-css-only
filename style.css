@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./images/donation2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.contant {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.contant h1 {
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+.contant p {
+  font-weight: 100;
+  line-height: 25px;
+  padding-bottom: 60px;
+}
+button {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 18px 30px;
+  border: none;
+  background: linear-gradient(88.33deg, #ad1d1d -7.64%, #ff1e1e 145.94%);
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+}
+
+.flex {
+  display: flex;
+}
+
+.donate_today {
+  text-align: center;
+  padding-top: 10%;
+}
+.donate_today h1 {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+.donate_today p {
+  padding-bottom: 40px;
+}
+.width {
+  width: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  background-color: azure;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+.donate_today-active {
+  border: 1px solid red;
+  color: #ad1d1d;
+  background-color: #efb2b2;
+}
+.box0f-money {
+  padding-left: 30%;
+  padding-bottom: 40px;
+}
+
+#fname {
+  text-align: center;
+  line-height: 40px;
+  width: 532px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+}
+form {
+  padding-bottom: 40px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+}
+.container h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container p {
+  padding-bottom: 20px;
+}
+
+.container_contant {
+  text-align: center;
+}
+.container_contant h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 40px;
+}
+.container_contant p {
+  line-height: 25px;
+  padding-bottom: 100px;
+}
+.container_box {
+  padding-left: 8%;
+}
+
+.box {
+  width: 25%;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: rgb(186, 230, 230);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+.box img {
+  width: 20%;
+}
+.box2 {
+  background-color: rgb(224, 205, 182);
+}
+.box3 {
+  background-color: rgb(200, 216, 184);
+}
+footer {
+  background-color: black;
+  color: #ffffff;
+  height: 200px;
+  text-align: center;
+}
+footer h1 {
+  color: #ad1d1d;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
