@@ -92,7 +92,7 @@ form {
 /* Donate_Plan section start */
 .Donate_Plan {
   width: 100%;
-  height: 85vh;
+  height: 700px;
   padding-top: 50px;
 }
 .Donate_Plan h3 {
@@ -155,7 +155,7 @@ form {
 }
 .gallery_main {
   width: 100%;
-  height: 70vh;
+  height: 600px;
   margin-top: 40px;
 }
 .gallery_box {
